@@ -1,0 +1,18 @@
+{
+  "name": "mod-moderador",
+  "version": "1.0.0",
+  "description": "Bot Discord de moderação com comandos slash.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
